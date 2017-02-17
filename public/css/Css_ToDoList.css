@@ -1,0 +1,273 @@
+
+.layoutTable{
+	margin-left:20%;
+	width:60%;
+	min-height:50px;
+	//background-color:lightgreen;
+	padding:10px;	
+	
+    border-collapse: separate;
+    border-spacing: 0 55px; 
+	
+}
+
+.col-md-offset-4_5 {
+	margin-left: 39.175%;
+}
+
+.border-radius-1{
+	border-radius: 1 !important;	
+}
+
+.imageForElement{
+	margin-left:-14px;
+	margin-right:7px;
+	width:20px;
+}
+
+.addToDoListDiv{
+		top:0;
+		left:0;
+		position: fixed;
+		//display: none;
+		background-color:black;
+		width:100%;
+		height:100%;
+		opacity:0.85;
+}
+
+.addFormDiv{
+	position:fixed;
+	//margin:auto;
+	top:25%;
+	left:30%;
+	width:40%;
+	border:2px solid white;
+	color:white;
+	border-radius: 5px;
+	opacity:1;
+	background-color:black;
+	padding: 10px 30px;
+}
+
+/*Glyphicons*/
+.gi-2x{font-size: 2em;}
+
+
+/*Project's classes*/
+
+.projectTable{	
+	width:100%;
+	background-color:snow;
+	border-collapse: collapse;
+	border-bottom-right-radius: 15px 15px;
+	border-bottom-left-radius: 15px 15px;
+	min-height:50px;
+	color:black;
+	border:0px solid green;
+	border-spacing: 0;
+	
+-webkit-box-shadow: 0px 3px 5px 0px rgba(77,77,77,1);
+-moz-box-shadow: 0px 3px 5px 0px rgba(77,77,77,1);
+box-shadow: 0px 3px 5px 0px rgba(77,77,77,1);
+}
+
+.projectTable tr:last-child  td:first-child {	
+	border-bottom-left-radius: 15px 15px;
+}
+
+.projectTable tr:last-child td:last-of-type{	
+	border-bottom-right-radius: 15px 15px;	
+}
+
+.projectTable td {
+ border-top: 1px solid lightgray;
+}
+
+.projectTable td.border_right {
+ border-right: 1px solid lightgray;
+}
+
+.projectTable tr:hover {
+ background-color:	FFFCB5;//#FFFFE0; 
+ cursor:pointer;
+}
+
+.projectTable  td span   {
+    display:none; 
+}
+
+.projectTable tr:hover  span   {	
+    display:table; 
+}
+
+.taskCheckbox{
+	width:20px;
+	height:20px;
+	border:1px solid black;
+	
+-webkit-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.74);
+box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.74);
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+40,eeeeee+61,eeeeee+61 */
+background: rgb(204,204,204); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(204,204,204,1) 40%, rgba(238,238,238,1) 61%, rgba(238,238,238,1) 61%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 40%,rgba(238,238,238,1) 61%,rgba(238,238,238,1) 61%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(204,204,204,1) 40%,rgba(238,238,238,1) 61%,rgba(238,238,238,1) 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+
+.projectHeader{
+	//background-color:red;
+	height:50px;
+	line-height:50px;
+	width:100%;
+	background-color: #337ab7;		
+    border-radius: 2px;
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.1);	
+	
+	-webkit-box-shadow: -4px -1px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px -1px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: -4px -1px 10px 0px rgba(0,0,0,0.75);
+}
+
+div.projectHeader:hover{
+	cursor: pointer;
+}
+
+div.projectHeader:hover div.projectOptions{
+	display:block;
+}
+
+div.projectHeader div.projectOptions{
+	display:none;
+}
+
+
+.iconColumn{
+	width:5%;
+	text-align: right;	
+	padding-right: 5px;
+	//background-color:white;
+	float: left;
+	height:100%;
+}
+.emptyColumn{
+	width:1%;
+	float: left;
+	height:100%;
+	//background-color:white;
+	/*border-right: 1px solid;
+	border-left: 1px solid;
+	border-color: #eb7992;*/
+}
+
+.emptyColumnTable{
+	width:0.2%;
+	height:100%;
+	//background-color:white;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-color: #eb7992;
+}
+
+.projectNameColum{	
+	text-align: left;
+	padding-left: 10px;
+	color:white;
+	width:75%;
+	float: left;
+	height:100%;
+	//background-color:greenyellow;
+	
+}
+
+.projectOptions{
+	//background-color:red;
+	text-align: right;
+	padding-right: 20px;
+	color:white;
+	float: left;
+	height:100%;
+	width:19%;
+}
+
+.editProjectName{
+	width:85%;
+	float:left;
+	height:40px;
+	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 5px;
+	color:black;
+}
+
+/*add task row*/
+.addTaskBlock{
+	height:50px;
+	line-height:50px;
+	background-color:#dedfe0;
+	width:100%;
+	border-radius: 2px;	
+	margin-top:1px;
+}
+
+.addTaskColumn{
+	width: 94%;
+	//background-color:red;
+	float:left;
+	padding-right:15px;
+}
+
+.taskInput{
+	width:85%;
+	float:left;
+	height:40px;
+	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+}
+
+.buttonAddTask{
+	width:15%;
+	border-top:2px solid darkgray;	
+	height:40px;
+	line-height:40px;
+	color:white;
+	background-color:#5F9578;
+	float:left;
+	margin-left:-3px;	
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+	  /*background: rgb(100,100,100) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+  box-shadow:
+   inset rgba(0,0,0,.3) -10 1px 4px,
+   inset rgba(252,255,255,.2) 10 5px -10px,
+   rgba(0,0,0,.5) 0 3px 1px -8px;*/
+
+}
+
+/*Options div*/
+div.border-left-half{
+	position: relative;
+	height:50px;
+    z-index : 1;  
+}
+
+div.border-left-half:before{
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 25%;
+  height  : 50%;
+  width   : 1px;  /* or 100px */
+  border-left:1px solid black;
+}
+

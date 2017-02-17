@@ -1,0 +1,26 @@
+protected $timestamps = true; // Автоматическая запись в бд created_at and updated_at
+
+
+
+<!--<table class = "projectTable">
+	<tr class = "projectHeader ">
+		<th class = "iconColumn headerShadow" ><span class="glyphicon glyphicon-calendar gi-2x" aria-hidden="true"></span></th>
+		<th class = "emptyColumn headerShadow" >&nbsp </th>
+		<th class = "projectNameColum headerShadow" >Project name</th>
+		<th class = "projectOptions headerShadow">	
+			<span class="glyphicon glyphicon-pencil" aria-hidden="true" style = "padding-right:10px;"></span> 			
+			<span class="glyphicon glyphicon-trash " aria-hidden="true" style="border-left:1px solid; padding-left:10px;"></span>
+		</th>
+	</tr>
+	
+	<tr>
+		<td>checkBox</td>
+		<td>&nbsp </td>
+		<td>Task name</td>
+		<td>Options</td>
+	</tr>
+</table> -->
+
+
+
+style="border-left:1px solid; padding-left:10px;top:30%;"
