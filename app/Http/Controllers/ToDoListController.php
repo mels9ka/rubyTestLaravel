@@ -68,14 +68,6 @@ class ToDoListController extends Controller
 			return Redirect::intended('/');				
 	}
 	
-	///
-	public function test()
-	{
-		$proj = Project::Find(40);		
-		$projectView = View::make('todolist.projectTmpl', ['project' => $proj]);
-		return $projectView;
-	}
-	///
 	
 	public function editProject()
 	{

@@ -13,6 +13,7 @@
 
 Route::any('/', 'UserController@login');
 Route::any('/login', 'UserController@login');
+Route::any('/logout', 'UserController@logout');
 Route::any('/todolist', 'ToDoListController@index');
 Route::post('/todolist/addproject', 'ToDoListController@addProject');
 Route::post('/todolist/editproject', 'ToDoListController@editProject');
@@ -23,7 +24,6 @@ Route::post('/todolist/edittask', 'ToDoListController@editTask');
 Route::post('/todolist/removetask', 'ToDoListController@removeTask');
 Route::post('/todolist/removeproject', 'ToDoListController@removeProject');
 
-Route::any('/todolist/test', 'ToDoListController@test');
 
 Route::any('signup', 'UserController@signup');
 
